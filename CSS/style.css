@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(221, 235, 213);
+}
+
+
+/* header */
+.container-first{
+    background-color: rgb(91, 101, 110);
+    padding: 1% 1%;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    background-color: rgb(91, 101, 110);
+}
+
+.name{
+    color: aliceblue;
+    background-color: rgb(91, 101, 110);
+}
+
+
+/* nav bar */
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item{
+    padding:10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    border-bottom: rgb(91, 101, 110) solid;
+    transition: ease-in-out;
+}
+
+
+/* content blocks */
+
+.content{
+    margin: 50px auto 0;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.block-one{
+    margin: 50px;
+    height: 500px;
+}
+
+.block-two{
+    height: 60px;
+}
+
+.block-three{
+
+}
+
+.mini-content{
+    height: 180px;
+}
+
+.block-four{
+    height: 140px;
+}
+
+footer{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+  @media screen and (max-width: 575px) {
+    .mini-content{
+        margin: 50px 12px 0;
+    }
+    .block-four{
+        margin: 50px 12px 0;
+    }
+  }
+
+  /* @media screen and (max-width: 991px) and (min-width: 575px) {
+    .mini-content{
+        margin: 50px auto 0;
+    }
+    .block-four{
+        margin: 50px auto 0;
+    }
+  } */
